@@ -1,0 +1,175 @@
+:root {
+    font-size: 62.5%;
+    
+    --background-header: #065E7C;
+    --background-input: #387E96;
+    --color-input: #FFFFFF;
+    --color-text: #121214;
+    --color-h3: #202024;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-input);
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    background-color: var(--background-header);
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 7.2rem;
+}
+
+.logo {
+    cursor: pointer;
+    height: 4rem;
+    transition: 0.2s linear;
+    width: 4rem;
+}
+
+#label {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+#search-input {
+    background-color: var(--background-input);
+    border: none;
+    border-radius: 4px;
+    color: var(--color-input);
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.2rem 1.6rem;
+    transition: 0.2s all linear;
+}
+
+#search-input::placeholder {
+    color: var(--color-input);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 4.2rem;
+    transition: 0.25s linear;
+    width: 4.2rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.1rem;
+}
+
+.cat-cover {
+    border-radius: 8px;
+    cursor: pointer;
+    max-height: 21.9rem;
+    transition: 0.3s;
+}
+
+.title-container {
+    margin-left: 2.2rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    transition: 0.2s;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 12px;
+}
+
+.button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all linear;
+}
+
+.text {
+    color: var(--color-text);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 0 2.6rem 0 2.2rem;
+}
+
+.articles-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    margin-top: 3.4rem;
+}
+
+h2, .articles-container {
+    margin-left: 2.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.articles-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.article {
+    cursor: pointer;
+    display: flex;
+    gap: 1.6rem;
+    transition: 0.2s all linear;
+}
+
+.article-info {
+    display: flex;
+    flex-direction: column;
+    /*gap: 1.5rem;*/
+}
+
+figcaption h3 {
+    color: var(--color-h3);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+figcaption p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+footer {
+    align-items: center;
+    background-color: var(--background-input);
+    color: var(--color-input);
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+    height: 6.4rem;
+    justify-content: center;
+    margin-top: 3.9rem;
+    padding: 1.6rem;
+}

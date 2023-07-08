@@ -1,0 +1,73 @@
+@media screen and (min-width:426px){
+    .logo {
+        margin-left: auto;
+    }
+
+    .about,
+    .articles-section {
+        align-items: center;
+    }
+
+    #search-input {
+        margin: 0 3rem;
+        width: 60vw;
+    }
+
+    .profile-pic {
+        margin-right: auto;
+    }
+
+    .cat-cover {
+        max-height: 30.9rem;
+        width: 100vw;
+    }
+
+    .buttons-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1024px){
+    main {
+        display: grid;
+        gap: 3.4rem;
+        grid-template-columns: 60% 40%;
+        margin: 4.4rem auto 0;
+        width: fit-content;
+    }
+
+    .about {
+        width: min-content;
+    }
+
+    .cat-cover {
+        height: 40.5rem;
+        width: auto;
+    }
+
+    .title-container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        width: -webkit-fill-available;
+    }
+
+    .articles-section {
+        display: block;
+        margin-top: 0;
+    }
+
+    h2 {
+        line-height: 0;
+        margin-bottom: 3.2rem;
+    }
+
+    h2, .articles-container {
+        margin-left: 0;
+    }
+
+    .text {
+        margin: 0;
+    }
+}
